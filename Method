@@ -1,0 +1,11 @@
+Train data
+1. Gradient vector (Using Solbel). 
+=> direction + gradient value 
+2. Summary gradient vector and divide into k bins (histogram). It means divide 180 degree into k parts. Each bins contains all gradient vector which have direction in each parts. 
+3. normalize data by rotate, smooth,... 
+4. Calculate confident (improve accurracy)
+5. Use SVM to recognize.
+
+Predict 
+....
+
