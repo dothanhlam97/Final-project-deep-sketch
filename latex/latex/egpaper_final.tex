@@ -1,0 +1,82 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[breaklinks=true,bookmarks=false]{hyperref}
+
+\cvprfinalcopy % *** Uncomment this line for the final submission
+
+\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+%\ifcvprfinal\pagestyle{empty}\fi
+\setcounter{page}{4321}
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{Sketch Understanding: Template Matching}
+
+\author{
+Trung-Hieu Hoang\\
+FIT - HCMUS\\
+{\tt\small 1512159@student.hcmus.edu.vn}
+\and
+Thanh-Lam Do\\
+FIT - HCMUS\\
+{\tt\small 1512275@student.hcmus.edu.vn}
+\and
+Tuan-Anh Le-Duong\\
+FIT - HCMUS\\
+{\tt\small 1512002@student.hcmus.edu.vn}
+\and
+Duy-Tam Nguyen\\
+FIT - HCMUS\\
+{\tt\small 1512479@student.hcmus.edu.vn}
+\and
+Minh-Triet Tran\\
+FIT - HCMUS\\
+{\tt\small tmtriet@fit.hcmus.edu.vn}
+}
+
+\maketitle
+%\thispagestyle{empty}
+
+%%%%%%%%% ABSTRACT
+\begin{abstract}
+   Sketch images is an effective way to convey information that is hard to describe using text. Furthermore, with the popularity of touch devices, sketch understanding is more and more attract attention of computer vision scientists. The authors implement "template matching algorithm" to recognize sketch image and experiment them on a part of the TU Berlin sketch benchmark. We adjust parameters in available method and analysis the result. In achievement,  our highest accuracy up to 60.023\%. For the future work, we want to apply this technique to build application using sketches to search for products on-line.
+   
+   	\bfseries {Keywords:}
+   	\mdseries template matching, human-sketch recognition  
+\end{abstract}
+
+%%%%%%%%% BODY TEXT
+\section{Introduction}
+Free-hand human sketches are usually incredible intuitive to humans. In some way, a sketch speaks for a “hundred” words and it is easily to recognized across cultures and languages. One of the most important task of computer vision is developing sketch understanding system. 
+
+The exiting image search-engines` have already done a good job in catalog-level image \cite{SketchShoe}. In some way, it does not have so much meaning because people can easily describe using text. Imagine that a person went to his/her friend’s house and found a beautiful table and he/she really want to buy it. If he/she search the keyword {"table"} on the Internet, he/she will found thousands kind of table. It is hard to find the table that he/she really want to buy. In contrast, he/she takes out his/her smart-phone and draws sketch the table using fingers; the sketch recognition system will found the most familiar table with the user’s sketch. 
+
+Sketch classification is a challenging task even for humans because of its diversity and abstract structure\cite{deepSketchSmartPhone}. The first basic sketch classification system was developed in 2012 by Mathias Eitz, James Hays and Marc Alexa \cite{howdohumans}. They designed a robust visual feature descriptor for sketches. This feature permits not only unsupervised analysis of the dataset, but also the computational recognition of sketches. In the following year, SYMetric-aware Flip Invariant Sketch Histogram (SYM-FISH) structure was used in sketch classification \cite{SYM-FISH}. In 2015, Free-hand sketch recognition by multi-kernel feature learning was developed and achieved the accuracy 65.81\% \cite{multiKernel}.
+
+Deep learning was established in 2015 by Y LeCun, Y Bengio, G Hinton. Since there, deep learning is used in a lot of fields and one of them is object recognition. In image sketch-understanding field, Deep Convolutional neural network a powerful tool for researcher to build partial sketch understanding systems \cite{deepSketchSmartPhone,DeepSketch2}.The Sketch understanding system using this CNN can reach the accuracy up to 77.69\% \cite{DeepSketch2}  
+
+In this paper, we re-implement "Template matching Algorithm" and adjust its parameters. We reach the highest accuracy up to 60.023\%. Although this is not the best available methods in 2017 but we think it will help us easier to implement and understand the algorithm with low configured computer.
+
+We mention related works in section [2]. Section [3]
+will explain about the data-set and issues related. Sketch recognition by Template Matching method is presented in section[4]. Content in section [5] will comparative evaluation with related work. We will also outline the experimental process and suggest a capable application
+in the future.
+{\small
+	\bibliographystyle{ieee}
+	\bibliography{egbib}
+}
+\end{document}

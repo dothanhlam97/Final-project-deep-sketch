@@ -1,0 +1,52 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{deepSketchSmartPhone}
+E.~Boyaci and M.~Sert.
+\newblock Feature-level fusion of deep convolutional neural networks for sketch
+  recognition on smart phones.
+\newblock {\em IEEE International Conference on Consumer Electronics (ICCE)},
+  2017.
+
+\bibitem{howdohumans}
+M.~A. Mathias~Eitz, James~Hays.
+\newblock How do humans sketch objects?
+\newblock {\em ACM Trans. Graph}, 31(4):1--10, 2012.
+
+\bibitem{multiKernel}
+S.~M. Omar~Seddati, Stephane~Dupont.
+\newblock Free-hand sketch recognition by multi-kernel feature learning.
+\newblock {\em Computer Vision and Image Understanding}, 2015.
+
+\bibitem{DeepSketch2}
+S.~M. Omar~Seddati, Stephane~Dupont.
+\newblock Deep sketch 2: Deep convolutional neural networks for partial sketch
+  recognition.
+\newblock {\em IEEE}, 2016.
+
+\bibitem{method2}
+N.~M. D. A. Y. M. G.~L. Qi~C, Su~H.
+\newblock Volumetric and multi-view cnns for object classification on 3d data.
+\newblock {\em CVPR}, 2016.
+
+\bibitem{SketchShoe}
+Y.-Z. S. T. X. T. M. H. C. C.~L. Quian~Yu, Feng~Liu.
+\newblock Sketch me that shoe.
+\newblock {\em CVPR}, pages 800--807, 2016.
+
+\bibitem{method3}
+B.~B. M. C. A. Y.~N. Schoer~R, Huval~B.
+\newblock Convolutional-recursive deep learning for 3d object classification.
+\newblock {\em NIPS}, 2013.
+
+\bibitem{method1}
+K.~E. L.-M.~E. Su~H, Maji~S.
+\newblock Multiview convolutional neural networks for 3d shape recognition.
+\newblock {\em ICCV}, 2015.
+
+\bibitem{SYM-FISH}
+S.~L. X. G. L.~L. Xiaochun~Cao, Hua~Zhang.
+\newblock Sym-fish: A symmetry-aware flip invariant sketch histogram shape
+  descriptor.
+\newblock {\em ICCV}, pages 313--330, 2013.
+
+\end{thebibliography}
